@@ -43,7 +43,7 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [콜백](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [Future](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [이벤트와 핸들러](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
-- [네티 애플리케이션 Echo 서버, 클라이언트 만들기]
+- 네티 애플리케이션 Echo 서버, 클라이언트 만들기
   - [Server](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/server/EchoServer.java)
   - [Client](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/client/EchoClient.java)
   - [+ @Sharable 어노테이션](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
