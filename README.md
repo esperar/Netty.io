@@ -32,13 +32,13 @@ implementation 'io.netty:netty-all:4.1.68.Final'
 
 ## TimeLine
 
-- 1. 자바의 네트워킹
+- 자바의 네트워킹
   - [Java NIO](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/nio.md)
   - [Selector](https://github.com/esperar/netty.io/blob/master/1-1%20NIO/selector.md)
-- 2. 네티 소개
+- 네티 소개
   - [~~네티는 누가 사용할 까?~~]()
   - [비동기식 이벤트 기반 네트워킹](https://github.com/esperar/netty.io/blob/master/1-2%20Intro/async.md)
-- 3. 네티의 핵심 컴포넌트
+- 네티의 핵심 컴포넌트
   - [Channel](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [콜백](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [Future](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
