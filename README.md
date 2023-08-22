@@ -46,3 +46,5 @@ implementation 'io.netty:netty-all:4.1.68.Final'
 - [네티 애플리케이션 Echo 서버, 클라이언트 만들기]
   - [Server](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/server/EchoServer.java)
   - [Client](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/client/EchoClient.java)
+  - [+ @Sharable 어노테이션](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
+  - [+ SimpleChannelInboundHandler vs ChannelInboundHandler](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
