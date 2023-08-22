@@ -26,24 +26,24 @@ public class EchoServer {
 
     private void start() throws InterruptedException {
         final EchoServerHandler handler = new EchoServerHandler();
-        EventLoopGroup group = new NioEventLoopGroup();
+        EventLoopGroup group = new NioEventLoopGroup();  // EventGroup 생성
 
         try {
-            ServerBootstrap b = new ServerBootstrap();
+            ServerBootstrap b = new ServerBootstrap(); // ServerBootStrap 생성
             b.group(group)
-                    .channel(NioServerSocketChannel.class)
-                    .localAddress(new InetSocketAddress(port))
+                    .channel(NioServerSocketChannel.class) // NIO 전송채널을 이용하도록 설정
+                    .localAddress(new InetSocketAddress(port)) // 지정된 포트로 소캣 주소 설정
                     .childHandler(new ChannelInitializer<SocketChannel>() {
 
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(handler);
+                            ch.pipeline().addLast(handler); // EchoServerHandler 하나를 채널의 Channel Pipeline으로 추가
                         }
                     });
-            ChannelFuture f = b.bind().sync();
-            f.channel().closeFuture().sync();
+            ChannelFuture f = b.bind().sync(); // 서버를 비동기식으로 바인딩
+            f.channel().closeFuture().sync(); // 채널의 CloseFuture를 얻고 완료될 때까지 현재 스레드를 블로킹
         } finally {
-            group.shutdownGracefully().sync();
+            group.shutdownGracefully().sync(); // EventLoobGroup을 종료하고 모든 리소스 해제
         }
     }
 }
