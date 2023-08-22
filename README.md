@@ -2,7 +2,7 @@
 
 Netty 프레임워크를 기술한 노트입니다. ✍️
 
-마크다운(.md) 파일로 작성합니다. ✨
+핵심 개념들을 마크다운(.md) 파일로, 실전 예제는 Java를 사용해 작성합니다. ✨
 
 작성된 내용중 잘못된 정보나 추가해야할 정보들은 이슈로 제보해주시면 감사하겠습니다. 🤝
 
@@ -43,3 +43,6 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [콜백](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [Future](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
   - [이벤트와 핸들러](https://github.com/esperar/netty.io/blob/master/1-3%20Component/netty_component.md)
+- [네티 애플리케이션 Echo 서버, 클라이언트 만들기]
+  - [Server](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/server/EchoServer.java)
+  - [Client](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/client/EchoClient.java)
