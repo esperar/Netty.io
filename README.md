@@ -6,12 +6,14 @@ Netty 프레임워크를 기술한 노트입니다. ✍️
 
 작성된 내용중 잘못된 정보나 추가해야할 정보들은 이슈로 제보해주시면 감사하겠습니다. 
 
-
-### Netty?🤝
+## Netty?🤝
 ___
 
 > Netty는 Java 언어로 작성된 이벤트 기반 네트워크 애플리케이션 프레임워크입니다. Netty를 사용하면 고성능, 확장 가능하고 유연한 서버 및 클라이언트 애플리케이션을 개발할 수 있습니다. Netty는 다양한 프로토콜 (HTTP, WebSocket, TCP 등)을 지원하며, 비동기 및 논블로킹 I/O 모델을 사용하여 네트워크 통신을 처리합니다. Netty는 대규모 분산 시스템에서 많이 사용됩니다.
 
+### Dependency
+
+#### maven
 ```xml
 <dependency>
     <groupId>io.netty</groupId>
@@ -21,14 +23,15 @@ ___
 
 ```
 
+#### gradle
+
 ```gradle
 implementation 'io.netty:netty-all:4.1.68.Final'
 ```
 
-___
+<br>
 
-
-### TimeLine
+## TimeLine
 
 - 1 자바의 네트워킹
   - [Java NIO](https://github.com/esperar/netty.io/blob/master/netty/1-1/nio.md)
