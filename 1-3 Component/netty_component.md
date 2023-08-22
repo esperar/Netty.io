@@ -24,3 +24,30 @@ JDK는 Future를 제공하지만, 수동으로 작업완료 여부를 확인하�
 
 앞서 언급한 대로 네티는 기본적으로 비동기식이며 이벤트 기반이다.
 
+### ChannelFutureListener 활용
+
+`ChannelFutureListener`를 활용하는 예제를 작성해보겠다.
+
+먼저 원격 피어로 연결한 다음, connect() 호출로 반횐된 ChannelFuture를 이용해 새로운 ChannelFutureListener를 등록한다.
+
+작업이 정상적이면 데이터를 Channel로 기록하며, 그렇지 않으면 ChannelFuture에서 Throwable를 가져온다.
+
+```java
+Channel channel = ...;
+
+// 볼로킹 x
+ChannelFuture future = channel.connect(new InetSocketAddress("192.168.0.1", 25));
+
+future.addListener(new ChannelFutureListener()) {
+    @Override
+    public void operationComplete(ChannelFuture future) {
+        if(future.isSuccess()){
+            ByteBuf buffer = Unpooled.copiedBuffer("Hello", Charset.defaultCharset());
+            ChannelFuture wf = future.channel().writeAndFlush(buffer);
+        } else {
+            Throwable cause = future.cause();
+            cause.printStacTace()
+        }
+    }
+}
+```
