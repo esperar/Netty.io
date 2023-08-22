@@ -1,8 +1,10 @@
-# @Sharable
+## @Sharable
 
 : 이 어노테이션이 붙은 클래스의 인스턴스는 여러 Channel에서 공유할 수 있음을 나타낸다.
 
-### SimpleChannelInboundHanlder vs ChannelInboundHanlder 
+<br>
+
+## SimpleChannelInboundHanlder vs ChannelInboundHanlder 
 
 Client에서는 `SImpleChannelInboundHandler`를 사용했다.
 
