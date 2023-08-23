@@ -6,7 +6,7 @@
 
 ## SimpleChannelInboundHanlder vs ChannelInboundHanlder 
 
-Client에서는 `SImpleChannelInboundHandler`를 사용했다.
+Client에서는 `SipleChannelInboundHandler`를 사용했다.
 
 클라이언트에서 channelRead0()이 완료된 시점에서 돌아오는 메시지는 이미 확보된 상태이며 메서드가 반환될 때 ByteBuf에 대한 메모리 참조를 해제한다.
 
