@@ -49,8 +49,12 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [Client](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/client/EchoClient.java)
   - [+ @Sharable 어노테이션](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
   - [+ SimpleChannelInboundHandler vs ChannelInboundHandler](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
+- Channel, EventLoop, ChannelFuture
+  - [Channel 인터페이스]()
 
 <br>
+
+___
 
 ### Reference
 - [Netty.docs Wiki](https://netty.io/wiki/)  
