@@ -53,6 +53,10 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [Channel 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/channel.md)
   - [EventLoop 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/eventloop.md)
   - [ChannelFuture 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/channel_future.md)
+- ChannelHander와 ChannelPipeline
+  - [Channel Handler 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-2%20Handler%20Pipeline/channel_handler.md)
+  - [Channel Pipeline 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-2%20Handler%20Pipeline/channel_pipeline.md)
+
 
 <br>
 
