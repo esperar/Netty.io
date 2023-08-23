@@ -6,8 +6,6 @@ Netty 프레임워크를 기술한 노트입니다. ✍️
 
 작성된 내용중 잘못된 정보나 추가해야할 정보들은 이슈로 제보해주시면 감사하겠습니다. 🤝
 
-[Netty.docs Wiki](https://netty.io/wiki/)  
-[Reactor Netty Reference Guide](https://projectreactor.io/docs/netty/release/reference/index.html)
 
 ## Netty?🤝
 
@@ -51,3 +49,9 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [Client](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/src/main/java/netty/nettyecho/client/EchoClient.java)
   - [+ @Sharable 어노테이션](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
   - [+ SimpleChannelInboundHandler vs ChannelInboundHandler](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
+
+<br>
+
+### Reference
+- [Netty.docs Wiki](https://netty.io/wiki/)  
+- [Reactor Netty Reference Guide](https://projectreactor.io/docs/netty/release/reference/index.html)
