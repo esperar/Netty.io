@@ -51,6 +51,8 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [+ SimpleChannelInboundHandler vs ChannelInboundHandler](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
 - Channel, EventLoop, ChannelFuture
   - [Channel 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/channel.md)
+  - [EventLoop 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/eventloop.md)
+  - [ChannelFuture 인터페이스]()
 
 <br>
 

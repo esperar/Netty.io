@@ -12,6 +12,8 @@
 
 이번장에서는 그 중 Channel 인터페이스를 알아보겠다.
 
+<br>
+
 ## Channel
 
 자바 기반 네트워크에서 기본 구조는 Socket 클래스다.
@@ -40,6 +42,7 @@ LocalChannel | 로컬 채널 클래스
 NioServerChannel | NIO 채널 클래스
 SctpChannel | 멀티 스트리밍 및 멀티 호밍을 지원하는 메시지 지향 채널 클래스
 
+<br>
 
 ## 예제
 
