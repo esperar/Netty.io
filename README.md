@@ -55,3 +55,4 @@ implementation 'io.netty:netty-all:4.1.68.Final'
 ### Reference
 - [Netty.docs Wiki](https://netty.io/wiki/)  
 - [Reactor Netty Reference Guide](https://projectreactor.io/docs/netty/release/reference/index.html)
+- [Netty in Action](https://www.oreilly.com/library/view/netty-in-action/9781617291470/)
