@@ -50,7 +50,7 @@ implementation 'io.netty:netty-all:4.1.68.Final'
   - [+ @Sharable 어노테이션](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
   - [+ SimpleChannelInboundHandler vs ChannelInboundHandler](https://github.com/esperar/Netty.io/blob/master/2-netty-echo-sample/sharable.md)
 - Channel, EventLoop, ChannelFuture
-  - [Channel 인터페이스]()
+  - [Channel 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-1%20Channel%20EventLoop%20ChannelFuture/channel.md)
 
 <br>
 
