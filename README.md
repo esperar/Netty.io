@@ -56,6 +56,7 @@ implementation 'io.netty:netty-all:4.1.68.Final'
 - ChannelHander와 ChannelPipeline
   - [Channel Handler 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-2%20Handler%20Pipeline/channel_handler.md)
   - [Channel Pipeline 인터페이스](https://github.com/esperar/Netty.io/blob/master/3-2%20Handler%20Pipeline/channel_pipeline.md)
+  - [인코더와 디코더](https://github.com/esperar/Netty.io/blob/master/3-2%20Handler%20Pipeline/encoder_decoder.md)
 
 
 <br>
