@@ -18,7 +18,7 @@ Netty 프레임워크를 기술한 노트입니다. ✍️
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-all</artifactId>
-    <version>4.1.68.Final</version>
+    <version>${NETTY_VERSION}</version>
 </dependency>
 
 ```
@@ -26,7 +26,7 @@ Netty 프레임워크를 기술한 노트입니다. ✍️
 #### gradle
 
 ```gradle
-implementation 'io.netty:netty-all:4.1.68.Final'
+implementation 'io.netty:netty-all:${NETTY_VERSION}'
 ```
 
 <br>
